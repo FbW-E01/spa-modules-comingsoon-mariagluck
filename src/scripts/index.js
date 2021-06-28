@@ -13,12 +13,12 @@ setInterval(function() {
   let diffDuration = moment.duration(exp.diff(now));
   element.innerHTML = ( 
       `<b style='font-size: 2.5em; color:white'>\ ${diffDuration.days() }</b>` + 
-  `<b style='font-size: 1em; color:white'>\ days </b>` + 
+  `<b style='font-size: 1em; color:white'>\ days <br></b>` + 
   `<b style='font-size: 2.5em; color:white'>\ ${diffDuration.hours() }</b>` + 
-  `<b style='font-size: 1em; color:white'>\ hours </b>` + 
+  `<b style='font-size: 1em; color:white'>\ hours<br></b>` + 
   `<b style='font-size: 2.5em; color:white'>\ ${diffDuration.minutes() }</b>` + 
-  `<b style='font-size: 1em; color:white'>\ minutes </b>` + 
+  `<b style='font-size: 1em; color:white'>\ minutes <br></b>` + 
   `<b style='font-size: 2.5em; color:white'>\ ${diffDuration.seconds() }</b>` + 
-  `<b style='font-size: 1em; color:white'>\ seconds </b>`
+  `<b style='font-size: 1em; color:white'>\ seconds<br></b>`
   );}, 1000);
 
